@@ -6,7 +6,7 @@ exclude = ['.git', '_site', 'assets', 'scripts.js', 'index.html']
 projects = [d for d in os.listdir(projects_dir) if os.path.isdir(d) and d not in exclude]
 
 with open('index.html', 'w') as f:
-    f.write('<!DOCTYPE html>\n<html>\n<head>\n<title>My Projects</title>\n</head>\n<body>\n<h1>Connor Bizjak</h1>\n<p>I left my first swe job a little bit ago, and realized I have to show people that I can do what it is I said I did</p>\n<p>Full Stack (frontend work was internal) applications for the management of a global IP communications infrastructure</p>\n<p>Please click around while I figure out what to do next</p>')
+    f.write('<!DOCTYPE html>\n<html>\n<head>\n<title>My Projects</title>\n<style>body {background-color: #c9303e; /* Background color */color: #bfffe6; /* Text color */font-family: Arial, sans-serif;}h1, h2, p {color: #bfffe6; /* Use the same color for headers and paragraphs */}a {color: #bfffe6; /* Link color */}/* Add custom styles for any specific elements */</style></head>\n<body>\n<h1>Connor Bizjak</h1>\n<p>I left my first swe job a little bit ago, and realized I have to show people that I can do what it is I said I did</p>\n<p>Full Stack (frontend work was internal) applications for the management of a global IP communications infrastructure</p>\n<p>Please click around while I figure out what to do next</p>')
     
     
     f.write('<h1>My Projects</h1>\n<ul>\n<p>I spent a night with GPT and yielded the following</p>\n<ul>\n')
