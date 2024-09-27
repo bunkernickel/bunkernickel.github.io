@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Word Embedding Visualization</title>
+    <style>
+        body { margin: 0; overflow: hidden; }
+        #info {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 300px;
+            padding: 10px;
+            background-color: rgba(255,255,255,0.8);
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id="info">
+        <p>Click on the canvas to lock the pointer and enable movement controls.</p>
+        <p>Use <strong>W, A, S, D</strong> keys to move.</p>
+        <p>Hover over a sphere to see the word.</p>
+    </div>
+    <!-- Include Three.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- Include the main script -->
+    <script src="scripts.js"></script>
+</body>
+</html>

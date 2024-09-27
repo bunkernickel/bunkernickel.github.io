@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Continuous Rotating Cube Grid with Periodic Image Coherence</title>
+    <style>
+        body { margin: 0; overflow: hidden; }
+        input {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+    <!-- Image Loaders for Two Images -->
+    <input type="file" id="imageLoader1" name="imageLoader1"/>
+    <input type="file" id="imageLoader2" name="imageLoader2" style="left: 150px;"/>
+
+    <!-- Import Three.js and custom script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

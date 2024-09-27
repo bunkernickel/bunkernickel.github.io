@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Reproduction with Cubes</title>
+    <style>
+        body { margin: 0; overflow: hidden; }
+        canvas { display: block; }
+        input {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+    <!-- Image Loader -->
+    <input type="file" id="imageLoader" name="imageLoader"/>
+    
+    <!-- Import Three.js and custom script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
